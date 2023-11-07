@@ -1,0 +1,11 @@
+
+.bs-example {
+  margin: 0px;
+}
+.bg-dark {
+    background-color: black!important;
+}
+.navbar-brand {
+    font-size: 25px;
+    font-family: sans-serif;
+}

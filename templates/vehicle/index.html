@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <style media="screen">
+    .jumbotron {
+      background-color: black;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      /* background-image: url('{% static "images/bg41.jpg" %}'); */
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .jumbotron h1 {
+      text-align: center;
+      color: white;
+      background-color: black;
+    }
+    .sumne{
+      color: red;
+    }
+
+    
+  </style>
+
+</head>
+
+<body>
+  {% include "vehicle/navbar.html" %}
+  <br><br>
+  
+
+  <div class="jumbotron" style="margin-bottom: 0px;margin-top: 0px; background-color: black; color: black;">
+    <h1><b class="sumne">T</b><b>echTune Motors</b></h1>
+    <br>
+    <h5 class="h55" style="color: white;  text-align: center;"><i>We know what your machine means to you, Don't worry here in <b class="sumne">T</b><b>echTune Motors</b> We'll take
+    complete care of it.</i></h5>
+
+    <br><br><br><br><br>
+  </div>
+  <!--  -->
+  <br><br>
+
+  {% include "vehicle/customer_mechanic_cards.html" %}
+<br><br><br><br><br>
+  {% include "vehicle/footer.html" %}
+</body>
+
+</html>
