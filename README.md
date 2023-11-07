@@ -1,16 +1,5 @@
-# VEHICLE SERVICE MANAGEMENT
+# VARCONS INTERNSHIP VEHICLE SERVICE MANAGEMENT FOR TECHTUNE MOTORS
 
----
-## SCREENSHOTS
-
-### Home Page
-### Admin Dashboard Dark theme
-### Admin Dashboard Light theme
-### Mechanic Dashboard
-### Customer Dashboard
-
----
-## FUNCTIONS
 ## Customer
 - customer will signup and login into system
 - customer can make request for service of their vehicle by providing details (vehicle number, model, problem description etc.)
