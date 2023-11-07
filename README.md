@@ -43,10 +43,10 @@ py manage.py createsuperuser
 - if customer is deleted by admin then their request(Enquiry) will be deleted automatically
 
 ## HOW TO RUN THIS PROJECT
-- Install Python(3.7.6) (Dont Forget to Tick Add to Path while installing Python)
+- Install Python(latest version) (Dont Forget to Tick Add to Path while installing Python)
 - Open Terminal and Execute Following Commands :
 ```
-pip install django==3.0.5
+pip install django
 pip install django-widget-tweaks
 
 ```
@@ -57,9 +57,7 @@ py manage.py makemigrations
 py manage.py migrate
 py manage.py runserver
 ```
-- Now enter following URL in Your Browser Installed On Your Pc
-```
-http://127.0.0.1:8000/
+- Now click on the URL shown on your terminal
 ```
 
 ## CHANGES REQUIRED FOR CONTACT US PAGE
@@ -77,10 +75,8 @@ https://myaccount.google.com/lesssecureapps
 - When customer/mechanic edit their profile then he/she must login again because their username/password is updated in db.
 ## Credits
 - Tran Anh Tuat ( Admin Dashboard UI )
-## Disclaimer
-This project is developed for demo purpose and it's not supposed to be used in real application.
+- sumitkumar1503/vehicleservicemanagement ( code support )
 
 ## Feedback
-Any suggestion and feedback is welcome. You can message me on facebook
-- [Contact on Facebook](https://fb.com/sumit.luv)
-- [Subscribe my Channel LazyCoder On Youtube](https://youtube.com/lazycoders)
+Any suggestion and feedback is welcome. You can message me on Instagram
+- adithya_kl_gowda
